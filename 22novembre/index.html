@@ -148,7 +148,7 @@ info.onAdd = function (map) {
 info.update = function (props) {
     this._div.innerHTML = '<h4>Information sur le département</h4>' +  (props ?
         'Département : <b>' + props.nom + '</b> <br />Taux d incidence : ' + props.Taux_dincidence 
-        : 'Merci de mettre le curseur sur la region');
+        : 'Merci de mettre le curseur sur le département');
 };
 
 info.addTo(map);
